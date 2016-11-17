@@ -14,4 +14,6 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require agency
+//= require magnific-popup
+//= require script
 //= require_tree .

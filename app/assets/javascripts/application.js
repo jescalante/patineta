@@ -15,5 +15,7 @@
 //= require bootstrap-sprockets
 //= require agency
 //= require magnific-popup
+//= require jqBootstrapValidation
+//= require contact_me
 //= require script
 //= require_tree .

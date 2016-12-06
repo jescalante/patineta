@@ -9,7 +9,7 @@ class HomeController < ApplicationController
       to: 'josecito_7@hotmail.com',
       from: 'contacto@patinetacolors.com',
       subject: "Nueva consulta de #{contact[:name]}",
-      reply_to: contact[:email]
+      reply_to: contact[:email],
       body: "Teléfono: #{contact[:phone]}\n\nMensaje: #{contact[:message]}"
     )
 
